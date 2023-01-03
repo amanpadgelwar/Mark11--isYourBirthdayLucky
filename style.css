@@ -67,3 +67,24 @@ body{
 
 
 }
+
+.ContactMe{
+    
+    display: flex;
+    
+    align-items: center;
+    align-content: center;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;;
+    width: fit-content;
+    font-size: 2ch;
+  
+  }
+
+  .footer-link{
+
+    margin-right: 15px;
+    color: blueviolet;
+  }
