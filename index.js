@@ -26,7 +26,7 @@ function luck ()
    console.log(inputNumber.value);
    console.log(sumOfDigits())
 console.log(sumOfDigits() %inputNumber.value)
-if (sumOfDigits() %inputNumber ===0){
+if (sumOfDigits() %inputNumber.value === 0){
 
     outputResults.innerHTML="Hurray!You are lucky"
     console.log("Hurray!You are lucky")
