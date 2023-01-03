@@ -2,6 +2,7 @@ var inputNumber =document.querySelector(".LuckyNumber");
 
 var checkButton=document.querySelector(".check");
 var dob=document.querySelector(".DOB");
+var outputResults=document.querySelector(".outputResults")
 
 
   
@@ -27,9 +28,11 @@ function luck ()
 console.log(sumOfDigits() %inputNumber.value)
 if (sumOfDigits() %inputNumber ===0){
 
+    outputResults.innerHTML="Hurray!You are lucky"
     console.log("Hurray!You are lucky")
 }
 else{
+    outputResults.innerHTML="You are not so lucky afterall!"
     console.log("You are not so lucky afterall!")
 }
 

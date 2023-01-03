@@ -88,3 +88,14 @@ body{
     margin-right: 15px;
     color: blueviolet;
   }
+
+  .outputResults{
+    display: block;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    font-size:xx-large;
+    padding: 0 35px;;
+
+  }
